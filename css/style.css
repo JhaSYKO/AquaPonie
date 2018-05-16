@@ -16,3 +16,8 @@ body
     text-decoration: underline;
 	color:red;
 }
+
+
+.zoom:hover {
+    transform: scale(1.8);
+}
