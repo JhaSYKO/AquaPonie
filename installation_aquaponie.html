@@ -9,16 +9,16 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-    <body style="background-image: url('asset/background_color1.png');" >
+    <body class="bodyFond">
         
-		<div class="jumbotron jumbotron-fluid justify " style="background-image: url('asset/bannierFond.png'); text-align: center;">
+		<div class="jumbotron jumbotron-fluid justify titre titre text-center">
 			<div class="container-fluid" >
 				<h1 class="display-4"><img src="asset/logo.PNG" alt="logo" class="rounded-circle img-fluid"><span class="align-middle">AquaPolynésie</span></h1>
 				<p class="lead"><mark>3 type d'installation utilisée en aquaponie</mark></p>
 			</div>
         </div>
-        
-		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand" href="#">Super vous etes toujour là</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationMenu" aria-controls="navigatoinMenu" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -33,7 +33,8 @@
 					
 				</div>
 			</div>
-		</nav>
+        </nav>
+        </div>
 		<div>
             <div >
 		        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -67,11 +68,11 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card w-100 mx-auto " style="margin: 20px; text-align:center; background-color:silver;">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card w-100 mx-auto fondGris">
 					<div class="card-body">
 						<div class="container-fluid">
 							<div class="row">
-								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card w-100 mx-auto shadow-lg p-3 mb-5" style="margin: 20px; text-align:center;">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 card w-100 mx-auto shadow-lg p-3 mb-5 margerContenu">
 									<div class="card-body">
 										<h4 class="card-title text-info">
 											Différentes Installation?
@@ -85,16 +86,16 @@
 						</div>
 						<div class="container-fluid">
 							<div class="row">
-								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto" style="margin: 20px; text-align: left;">
-                                    <h5 class="text-primary" style="text-align: center;">Système NFT</h5>
+								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto margerContenu">
+                                    <h5 class="text-primary margerContenu">Système NFT</h5>
                                     <a href="#NFT"><img src="asset/nftExemple1.jpg" class="rounded img-fluid" alt="Responsive image"></a>
 								</article>
-								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto" style="margin: 20px; text-align: center;">
-                                    <h5 class="text-primary" style="text-align: center;">Système DWC</h5>
+								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto margerContenu">
+                                    <h5 class="text-primary margerContenu">Système DWC</h5>
                                     <a href="#DWC"><img src="asset/dwcExemple1.jpg" class="rounded img-fluid" alt="Responsive image"></a>
 								</article>
-								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto" style="margin: 20px; text-align: right;">
-                                    <h5 class="text-primary" style="text-align: center;">Système avec substrat</h5>
+								<article class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mx-auto margerContenu">
+                                    <h5 class="text-primary margerContenu">Système avec substrat</h5>
                                     <a href="#MEDIA"><img src="asset/mediaExemple1.jpg" class="rounded img-fluid" alt="Responsive image"></a>
 								</article>
 							</div>
@@ -103,7 +104,7 @@
 						<div class="container" id="NFT">
 							<div class="row">
 
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 margerContenu">
                                     <div class="card-body">
                                         <img src="asset/nftExplication.jpg" class="img-fluid" alt="image responsive">
                                     </div>
@@ -111,7 +112,7 @@
                                         <img src="asset/nftExplication1.jpg" class="img-fluid" alt="image responsive">
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify margerContenu">
                                     <div class="card-body">
                                         <h4 class="card-title text-info ">
                                             Les systèmes aquaponiques sans substrat dit NFT ou à gouttières :
@@ -135,7 +136,7 @@
                         <div class="container" id="DWC">
                             <div class="row">
 
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify margerContenu">
                                     <div class="card-body">
                                         <h4 class="card-title text-info ">
                                             Les Systèmes aquaponiques RAFT/DWC(Deep Water Culture), Tables à marée :
@@ -156,7 +157,7 @@
                                         <img src="asset/dwc.jpg" class="img-fluid" alt="image responsive">
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 margerContenu">
                                     <div class="card-body">
                                         <img src="asset/dwcExemple1.jpg" class="img-fluid" alt="image responsive">
                                     </div>
@@ -170,7 +171,7 @@
                         <div class="container" id="MEDIA">
                             <div class="row">
 
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 margerContenu">
                                     <div class="card-body">
                                         <img src="asset/bacMedia1.jpg" class="img-fluid" alt="image responsive">
                                     </div>
@@ -178,7 +179,7 @@
                                         <img src="asset/bacMedia2.jpg" class="img-fluid" alt="image responsive">
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify" style="margin: 20px; text-align:center;">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 card w-100 mx-auto shadow-lg p-3 mb-5 justify margerContenu">
                                     <div class="card-body">
                                         <h4 class="card-title text-info ">
                                             Les systèmes aquaponiques avec substrat :
@@ -205,7 +206,7 @@
 			</div>
 		</div>
         <footer>					
-            <div class="jumbotron jumbotron-fluid justify" style="background-image: url('asset/bannierFond.png'); text-align: center;">
+            <div class="jumbotron jumbotron-fluid justify titre text-center">
                 <div class="container-fluid">
                     <h1 class="display-4"><img src="asset/logo.PNG" alt="logo" class="rounded-circle">
                         AquaPonie
@@ -218,7 +219,7 @@
                     <h6 class="souligner">
                          me contacter : 
                     </h6>
-                    <ul class="souligner"> e-mail : ttematahotoa.tcc@gmail.com</ul>
+                    <ul> e-mail : ttematahotoa.tcc@gmail.com</ul>
                 </div>
              </div>
          </footer>
